@@ -7,10 +7,28 @@
 
 body{ 
     font-family: "Synemono";   
-    background: url(../IMG/original.jpeg) fixed no-repeat ;
-    text-shadow: #000 1px 1px 2px;
+    /* background: url(../IMG/original.jpeg) fixed no-repeat ; */
+    text-shadow: #000 0px 0px 1px;
      
 
+}
+
+header {
+	background-image: url(../IMG/tacheOrange.png);
+}
+
+.box1 {
+	background-image: url(../IMG/tacheVert.png);
+
+}
+
+.box2 {
+	
+	margin-top: 10px;
+}
+
+.box4 {
+	background-image: url(../IMG/tacheVert1.png);
 }
 
 .navbar-brand {
@@ -24,7 +42,7 @@ body{
 }
 
 .bar1 {
-    background-color: #EFA240;
+    background-color: #4EA283;
     
 }
 
@@ -92,6 +110,7 @@ H2 {
  font-size: 30px;
  padding-top: 30px;
  padding-bottom: 30px;
+ background-color: #EFA240;
 }
 
 .html5 {
@@ -214,9 +233,8 @@ h3 {
 
             footer {
                 text-align: center;
-                background-color: #EFA240;
-                border: #EFA240 solid 2px;
-               
+                background-color: #4EA283;
+                border: #4EA283 solid 2px;
                 padding-top: -20px;
             
             }
@@ -224,5 +242,6 @@ h3 {
             #mail{ 
                 color: #EFA240;
 
-            }
+			}
+			
 		
