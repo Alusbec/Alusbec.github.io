@@ -1,0 +1,18 @@
+@media screen and (max-width 680px) {
+
+.box1 {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+}
+     
+    .profil {
+      grid-column: 1;
+    }
+
+    #presentation {
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+
