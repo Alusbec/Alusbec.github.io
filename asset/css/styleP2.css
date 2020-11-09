@@ -1,0 +1,106 @@
+/* choix de la police */
+@font-face{
+    font-family: "Synemono";
+    src: url(../POLICE/SyneMono-Regular.ttf) ;
+}
+
+body{ 
+    font-family: "Synemono";  
+    background-color: #F1CDAB; 
+
+}
+
+.nav-item{
+    margin-right: 50px;
+    font-size: 20px;
+     
+}
+
+.nav-link {
+    color:  #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+    
+
+}
+
+.nav-link:hover{
+    color: #000000;
+    text-shadow: 1px 1px 2px #F1CDAB;}
+
+h1{
+    position: absolute;
+    margin-left: 80px;
+    top: 100px;
+}
+
+.bloc1 {
+    z-index: 1;
+    background-color: #007271;
+    padding-bottom: 30px;
+    position: relative;
+    color:  #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.bloc2 {
+    background-color: #FE852B;
+    padding-bottom: 119px;
+    position: relative;
+    font-family: "Synemono";  
+    color:  #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+
+.btn {
+    color: #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.welcom {
+    position: absolute;
+    padding-left: 1150px;
+    top: 200px;
+}
+
+h3 {
+    padding-left: 25px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+.draw {
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+
+footer {
+    position: absolute;
+    padding-left: 1350px;
+    top: 900px;
+}
+
+i {
+    font-size: 25px;
+}
+
+
+.pb1 {
+    border: #F1CDAB solid 1px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.pb1>i {
+    font-size: 30px;
+}
+
+.cptc {
+    font-size: 30px;
+    text-indent: 2px;
+}
+
+

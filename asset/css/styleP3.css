@@ -1,0 +1,194 @@
+/* choix de la police */
+@font-face{
+    font-family: "Synemono";
+    src: url(../POLICE/SyneMono-Regular.ttf) ;
+}
+
+body{ 
+    font-family: "Synemono";  
+    background-color: #F1CDAB; 
+
+}
+
+.nav-item{
+    margin-right: 50px;
+    font-size: 20px;
+     
+}
+
+.nav-link {
+    color:  #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+    
+
+}
+
+.nav-link:hover{
+    color: #000000;
+    text-shadow: 1px 1px 2px #F1CDAB;}
+
+h1{
+    margin-bottom: 40px;
+}
+
+.bloc1 {
+    z-index: 1;
+    background-color: #007271;
+    padding-bottom: 301px;
+    position: relative;
+    color:  #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.bloc2 {
+    background-color: #FE852B;
+    padding-bottom: 435px;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+}
+
+
+.btn {
+    color: #F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.welcom {
+    position: absolute;
+    padding-left: 1150px;
+    top: 200px;
+}
+
+h3 {
+    padding-left: 25px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+.draw {
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+
+footer {
+    position: absolute;
+    padding-left: 1350px;
+    top: 855px;
+}
+
+i {
+    font-size: 25px;
+}
+
+a {
+	color: #F1CDAB;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+	a:hover,
+	a.selected {
+		color: #000;
+	}
+
+h2 {
+	text-align: center;
+	color: #000000;
+	text-shadow: #F1CDAB 1px 1px 2px;
+	margin-bottom: 5px;
+}
+
+
+
+	#timeline {
+		width: 500px;
+		height: 600px;
+		margin: 40px auto;
+		position: relative;
+		
+	}
+		#dates {
+			width: 100px;
+			height: 600px;
+			float: left;
+			margin-left: 150px;
+			margin-top: 120px;
+		}
+			#dates li {
+				list-style: none;
+				width: 200px;
+				height: 80px;
+				line-height: 100px;
+				font-size: 27px;
+				
+				
+			}
+				#dates a {
+					line-height: 60px;
+					padding-bottom: 10px;
+				}
+				#dates .selected {
+			        font-size: 38px;
+				}
+		
+		#issues {
+			margin-top: 80px;
+			margin-left: 100px ;
+			width: 400px;
+			height: 600px;
+			overflow: hidden;
+			float: left;
+		}	
+			#issues li {
+				max-width: 300px;  width: 400px;
+				height: 600px;
+                list-style: none;
+                text-align: center;
+
+			}
+				#issues li.selected img {
+					-webkit-transform: scale(1.1,1.1);
+					-moz-transform: scale(1.1,1.1);
+				    -o-transform: scale(1.1,1.1);
+				    -ms-transform: scale(1.1,1.1);
+				    transform: scale(1.1,1.1);
+				}
+				#issues li img {
+					float: left;
+                    width: 200px;  
+					margin: 10px 30px 10px 50px;
+					
+				
+					zoom: 1;
+					-webkit-transition: all 2s ease-in-out;
+					-moz-transition: all 2s ease-in-out;
+					-o-transition: all 2s ease-in-out;
+					-ms-transition: all 2s ease-in-out; 
+					transition: all 2s ease-in-out;
+					-webkit-transform: scale(0.7,0.7);
+					-moz-transform: scale(0.7,0.7);
+				    -o-transform: scale(0.7,0.7);
+				    -ms-transform: scale(0.7,0.7);
+				    transform: scale(0.7,0.7);
+				}
+				#issues li h2 {
+					color: #F1CDAB;
+					font-size: 48px;
+					text-align: center;
+					text-shadow: #000 1px 1px 2px;
+				}
+				#issues li p {
+					font-size: 25px;
+					margin: 10px 20px;
+					font-weight: normal;
+					line-height: 22px;
+					
+				}
