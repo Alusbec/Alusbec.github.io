@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
 
 .navbar-toggler-icon {
-    z-index: 2;
+    
     color: black;
     position: absolute;
     top: 30px;
@@ -66,8 +66,9 @@ h1 {
 
  footer {
     position: absolute;
-    margin-left: -1000px;
-    top: 1800px;
+    margin-left: -1330px;
+    top: 1890px;
+    
 
  }
 
