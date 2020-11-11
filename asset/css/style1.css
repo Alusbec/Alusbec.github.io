@@ -1,1 +1,87 @@
-@media screen and (max-width 680px) {
+@media screen and (max-width: 600px) {
+
+.navbar-toggler-icon {
+    z-index: 2;
+    color: black;
+    position: absolute;
+    top: 30px;
+    margin-left: 40px;
+    
+}
+
+.profil > img{
+    width: 90%;
+    height: 90%;
+}
+
+.navbar-nav > li{
+    z-index: 5;
+}
+
+h1 {
+    position : absolute;
+    margin-left: -450px;
+    top: 550px;     
+}
+
+#presentation {
+    position : absolute;
+    margin-left: -450px;
+    top: 630px;   
+    /* margin-right: -10px; */
+   
+}
+
+.draw > img {
+    width: 60%;
+    height: 60%;
+}    
+
+ .draw {
+     position: absolute;
+     margin-left: -1020px;
+     top: 580px;
+     z-index: 7;
+     
+ }   
+
+ h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.portraitChinois {
+    position: absolute;
+    z-index: 6;
+    top: 170px;
+    margin-right: -100px;
+    margin-left: -500px;
+    
+    
+}
+
+ h3 {
+     display: none;
+ }
+
+ footer {
+    position: absolute;
+    margin-left: -1000px;
+    top: 1800px;
+
+ }
+
+
+.bloc1 {
+    padding-bottom: 900px;
+}
+
+.bloc2 {
+
+        padding-bottom: 850px;
+        margin-bottom: -2000px;
+    
+    
+    }
+
+}
