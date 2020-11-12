@@ -42,7 +42,7 @@ h1{
 
 .bloc2 {
     background-color: #FE852B;
-    padding-bottom: 435px;
+    padding-bottom: 445px;
     position: relative;
 }
 
@@ -78,7 +78,19 @@ h3 {
 footer {
     position: absolute;
     padding-left: 1200px;
-    top: 865px;
+	top: 865px;
+	font-size: 25px;
+}
+
+
+footer a {
+    color: #000000;
+    
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
 i {

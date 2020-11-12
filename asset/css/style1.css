@@ -1,94 +1,94 @@
 @media screen and (max-width: 600px) {
 
-.navbar-toggler-icon {
-    z-index: 10;
-    color: black;
-    position: absolute;
-    top: 30px;
-    margin-left: 10px;
-    
-}
+    .navbar-toggler-icon {
+        z-index: 10;
+        color: black;
+        position: absolute;
+        top: 30px;
+        margin-left: 10px;
 
-.profil{
-    position: relative;
-    margin-top: -120px;
-}
+    }
 
-.profil > img{
-    position: relative;
-    width: 90%;
-    height: 90%;
-}
+    .profil {
+        position: relative;
+        margin-top: -120px;
+    }
 
-.navbar-nav > li{
-    z-index: 5;
-}
+    .profil>img {
+        position: relative;
+        width: 90%;
+        height: 90%;
+    }
 
-h1 {
-    position : absolute;
-    margin-left: -450px;
-    top: 550px;     
-}
+    .navbar-nav>li {
+        z-index: 5;
+    }
 
-#presentation {
-    position : absolute;
-    margin-left: -450px;
-    top: 630px;   
-    /* margin-right: -10px; */
-   
-}
+    h1 {
+        position: absolute;
+        margin-left: -450px;
+        top: 580px;
+    }
 
-.draw > img {
-    width: 60%;
-    height: 60%;
-}    
+    #presentation {
+        position: absolute;
+        margin-left: -450px;
+        margin-top: 20px;
+        margin-right: 20px;
+        top: 630px;
+        /* margin-right: -10px; */
 
- .draw {
-     position: absolute;
-     margin-left: -1020px;
-     top: 580px;
-     z-index: 7;
-     
- }   
+    }
 
- h2 {
-    padding-top: 20px;
-    padding-left: 10px;
-}
+    .draw>img {
+        width: 60%;
+        height: 60%;
+    }
 
-.portraitChinois {
-    position: absolute;
-    z-index: 6;
-    top: 170px;
-    margin-right: -100px;
-    margin-left: -500px;
-    
-    
-}
+    .draw {
+        position: absolute;
+        margin-left: -1020px;
+        top: 580px;
+        z-index: 7;
 
- h3 {
-     display: none;
- }
+    }
 
- footer {
-    position: absolute;
-    margin-left: -1330px;
-    top: 1720px;
-    
+    h2 {
+        position: absolute;
+        top: -150px;
+        padding-left: 10px;
+    }
 
- }
+    .portraitChinois {
+        position: relative;
+        z-index: 6;
+        top: 170px;
+        /* margin-right: -100px; */
+        margin-left: -500px;
+        text-align: left;
+        font-size: 10px;
 
 
-.bloc1 {
-    padding-bottom: 600px;
-}
+    }
 
-.bloc2 {
+    h3 {
+        display: none;
+    }
 
-        padding-bottom: 650px;
-       
-    
-    
+    footer {
+        position: absolute;
+        margin-left: -1330px;
+        top: 1920px;
+    }
+
+    .bloc1 {
+        padding-bottom: 600px;
+    }
+
+    .bloc2 {
+
+        padding-bottom: 550px;
+
     }
 
 }

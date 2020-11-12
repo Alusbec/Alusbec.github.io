@@ -44,7 +44,7 @@ h1{
 
 .bloc2 {
     background-color: #FE852B;
-    padding-bottom: 119px;
+    padding-bottom: 130px;
     position: relative;
     font-family: "Synemono";  
     color:  #F1CDAB;
@@ -81,6 +81,17 @@ footer {
     position: absolute;
     padding-left: 1350px;
     top: 900px;
+    font-size: 25px;
+}
+
+footer a {
+    color: #000000;
+    
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
 i {
