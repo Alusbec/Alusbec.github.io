@@ -58,27 +58,27 @@ h1{
 
 .welcom {
     position: absolute;
-    padding-left: 1150px;
+    padding-left: 1050px;
     top: 200px;
 }
 
 h3 {
-    padding-left: 25px;
+    padding-left: -80px;
     padding-bottom: 30px;
     font-size: 20px;
     
 }
 
 .draw {
-    padding-left: 60px;
+    padding-left: 10px;
     padding-top: 20px;
     
 }
 
 footer {
     position: absolute;
-    padding-left: 1350px;
-    top: 855px;
+    padding-left: 1200px;
+    top: 865px;
 }
 
 i {

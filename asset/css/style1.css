@@ -1,15 +1,21 @@
 @media screen and (max-width: 600px) {
 
 .navbar-toggler-icon {
-    
+    z-index: 10;
     color: black;
     position: absolute;
     top: 30px;
-    margin-left: 40px;
+    margin-left: 10px;
     
 }
 
+.profil{
+    position: relative;
+    margin-top: -120px;
+}
+
 .profil > img{
+    position: relative;
     width: 90%;
     height: 90%;
 }
@@ -67,20 +73,20 @@ h1 {
  footer {
     position: absolute;
     margin-left: -1330px;
-    top: 1890px;
+    top: 1720px;
     
 
  }
 
 
 .bloc1 {
-    padding-bottom: 900px;
+    padding-bottom: 600px;
 }
 
 .bloc2 {
 
-        padding-bottom: 850px;
-        margin-bottom: -2000px;
+        padding-bottom: 650px;
+       
     
     
     }

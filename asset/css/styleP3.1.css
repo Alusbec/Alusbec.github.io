@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+
+
+    #dates { 
+        z-index: 9;
+        margin-left: -40px;
+        margin-top: -30px;
+    }
+
+    #issues {
+        margin-top: -450px;
+        margin-left: 10px;
+    }
+
+    .draw>img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .draw {
+        position: absolute;
+        margin-left: -800px;
+        top: 690px;
+        z-index: 7;
+
+    }
+
+    
+    h3 {
+        display: none;
+    }
+
+    footer {
+        position: absolute;
+        margin-left: -1180px;
+        top: 1070px;
+    }
+
+    .bloc1 {
+        padding-bottom: 350px;
+    }
+    
+    .bloc2 {
+    
+            padding-bottom: 600px;
+           
+    }
+
+    }
+

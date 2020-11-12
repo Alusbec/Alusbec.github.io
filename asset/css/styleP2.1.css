@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+
+
+    h1 {
+        position: relative;
+        margin-left: 60px;
+        margin-top: -70px;
+    }
+
+    .mep {
+        margin-top: 130px;
+    }
+
+
+    h3 {
+        display: none;
+    }
+
+    .draw>img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .draw {
+        position: absolute;
+        margin-left: -1020px;
+        top: 1050px;
+        z-index: 7;
+
+    }
+
+    footer {
+        position: absolute;
+        margin-left: -1330px;
+        top: 1450px;
+    }
+
+    .bloc2 {
+
+        padding-bottom: 550px;
+
+
+
+    }
+
+}
