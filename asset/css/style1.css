@@ -29,13 +29,13 @@
     h1 {
         position: absolute;
         margin-left: -450px;
-        top: 580px;
+        top: 650px;
     }
 
     #presentation {
         position: absolute;
         margin-left: -450px;
-        margin-top: 20px;
+        margin-top: 90px;
         margin-right: 20px;
         top: 630px;
         /* margin-right: -10px; */
