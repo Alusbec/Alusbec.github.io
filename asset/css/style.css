@@ -34,16 +34,15 @@ h1{
 .bloc1 {
     z-index: 1;
     background-color: #007271;
-    padding-bottom: 166px;
-    position: relative;
+    padding-bottom: 100px;
     color:  #F1CDAB;
     text-shadow: 1px 1px 2px #000000;
 }
 
 .bloc2 {
     background-color: #FE852B;
-    padding-bottom: 150px;
-    position: relative;
+    padding-bottom: 100px;
+
 }
 
 .identite {
@@ -58,23 +57,24 @@ h1{
 
 .profil {
     z-index: 4;
-    position: absolute;
-    top: 86px;
+    /* position: absolute; */
+   margin-top: -220px;
 }
 
 h2 {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-left: 60px;
-    position: relative;
+    position: absolute;
     color:  #F1CDAB;
     text-shadow: 1px 1px 2px #000000;
 }
 
 .portraitChinois {
+    padding-top: 20px;
     z-index: 2;
-    padding-top: -10px;
+    /* padding-top: -10px; */
     padding-left: 500px;
-    position: absolute;
+    /* position: absolute; */
     font-size: 29px;
     color :#F1CDAB;
     text-shadow: 1px 1px 2px #000000;
@@ -105,12 +105,16 @@ h3 {
     
 }
 
+.foot{
+    background-color: #FE852B;
+}
+
 footer {
-    position: absolute;
-    padding-left: 1350px;
-    top: 830px;
-    font-size: 25px;
-    
+    text-align: right;
+    /* position: absolute; */
+   
+    /* top: 830px; */
+    font-size: 25px;   
     
 }
 
@@ -124,10 +128,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-
-
 i {
     font-size: 25px;
 }
-
-

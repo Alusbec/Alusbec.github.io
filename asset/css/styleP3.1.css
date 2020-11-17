@@ -3,25 +3,29 @@
 
     #dates { 
         z-index: 9;
-        margin-left: -40px;
-        margin-top: -30px;
+        position: absolute;
+        margin-left: 20px;
+        top: 60px;
     }
 
     #issues {
-        margin-top: -450px;
+        position: absolute;
+        top : 250px;
         margin-left: 10px;
     }
 
     .draw>img {
         width: 60%;
         height: 60%;
+        display: none;
     }
 
     .draw {
-        position: absolute;
+        /* position: absolute;
         margin-left: -800px;
         top: 690px;
-        z-index: 7;
+        z-index: 7; */
+        display: none;
 
     }
 
@@ -29,12 +33,17 @@
     h3 {
         display: none;
     }
+    .foot {
+        display: none;
+    }
 
     footer {
-        position: absolute;
-        margin-left: -1180px;
-        top: 1070px;
+        text-align: left;
+      margin-left: 10px;
+        background-color:  #FE852B;
     }
+
+  
 
     .bloc1 {
         padding-bottom: 350px;
@@ -45,6 +54,8 @@
             padding-bottom: 600px;
            
     }
+
+   
 
     }
 

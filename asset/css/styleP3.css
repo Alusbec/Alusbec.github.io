@@ -19,36 +19,35 @@ body{
 .nav-link {
     color:  #F1CDAB;
     text-shadow: 1px 1px 2px #000000;
-    
-
 }
 
 .nav-link:hover{
     color: #000000;
     text-shadow: 1px 1px 2px #F1CDAB;}
 
-h1{
-    margin-bottom: 40px;
-}
-
+	h1{
+		
+		margin-left: 80px;
+		top: 100px;
+	}
 .bloc1 {
     z-index: 1;
     background-color: #007271;
-    padding-bottom: 301px;
-    position: relative;
     color:  #F1CDAB;
-    text-shadow: 1px 1px 2px #000000;
+	text-shadow: 1px 1px 2px #000000;
+	padding-bottom: 350px;
 }
 
 .bloc2 {
     background-color: #FE852B;
-    padding-bottom: 445px;
-    position: relative;
+	padding-bottom: 450px;
+	
+   
 }
 
-.box {
+/* .box {
     position: absolute;
-}
+} */
 
 
 .btn {
@@ -74,14 +73,14 @@ h3 {
     padding-top: 20px;
     
 }
-
-footer {
-    position: absolute;
-    padding-left: 1200px;
-	top: 865px;
-	font-size: 25px;
+.foot{
+    background-color: #FE852B;
 }
 
+footer {
+	text-align: right;
+	font-size: 25px;
+}
 
 footer a {
     color: #000000;
@@ -203,4 +202,18 @@ h2 {
 					font-weight: normal;
 					line-height: 22px;
 					
+				}
+				
+				#dates {
+					position: absolute;
+					top : 80px
+
+				}
+			
+
+				#issues {
+					position: absolute;
+					top : 100px;
+					margin-left: 330px;
+
 				}

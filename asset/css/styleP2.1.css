@@ -19,20 +19,22 @@
     .draw>img {
         width: 60%;
         height: 60%;
+        display: none;
     }
 
     .draw {
-        position: absolute;
-        margin-left: -1020px;
-        top: 1050px;
-        z-index: 7;
+        /* position: absolute; */
+        /* margin-left: -1020px; */
+        /* top: 1050px; */
+        /* z-index: 7; */
+        display: none;
 
     }
 
     footer {
-        position: absolute;
-        margin-left: -1330px;
-        top: 1450px;
+        text-align: left;
+      margin-left: 10px;
+        background-color:  #FE852B;
     }
 
     .bloc2 {
@@ -40,7 +42,9 @@
         padding-bottom: 570px;
 
 
-
+    }
+    .foot {
+        display: none;
     }
 
 }

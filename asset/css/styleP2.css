@@ -28,7 +28,7 @@ body{
     text-shadow: 1px 1px 2px #F1CDAB;}
 
 h1{
-    position: absolute;
+    
     margin-left: 80px;
     top: 100px;
 }
@@ -74,13 +74,14 @@ h3 {
 .draw {
     padding-left: 60px;
     padding-top: 20px;
-    
+}
+
+.foot{
+    background-color: #FE852B;
 }
 
 footer {
-    position: absolute;
-    padding-left: 1350px;
-    top: 900px;
+    text-align: right;
     font-size: 25px;
 }
 
