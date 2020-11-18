@@ -88,7 +88,7 @@ h2 {
 
 .welcom {
     position: absolute;
-    padding-left: 1250px;
+    padding-left: 1190px;
     top: 200px;
 }
 
@@ -111,6 +111,7 @@ h3 {
 }
 
 footer {
+    padding-right: 10px;
     text-align: right;
     /* position: absolute; */
    
@@ -132,3 +133,4 @@ footer a:hover {
 i {
     font-size: 25px;
 }
+
