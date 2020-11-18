@@ -88,7 +88,7 @@ h2 {
 
 .welcom {
     position: absolute;
-    padding-left: 1150px;
+    padding-left: 1250px;
     top: 200px;
 }
 
@@ -96,6 +96,7 @@ h3 {
     padding-left: 25px;
     padding-bottom: 30px;
     font-size: 20px;
+    text-align: center;
     
 }
 
