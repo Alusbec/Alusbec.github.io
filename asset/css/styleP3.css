@@ -73,8 +73,9 @@ body{
 .welcom {
     position: absolute;
     padding-left: 830px;
-    top: 100px;
-    z-index: 6;}
+    top: 600px;
+	z-index: 2;
+
 }
 
 h3 {
@@ -222,14 +223,15 @@ h2 {
 				
 				#dates {
 					position: absolute;
-					top : 95px
+					top : 95px;
+					z-index: 5;
 
 				}
 			
 
 				#issues {
 					position: absolute;
-					top : 100px;
-					margin-left: 330px;
-
+					top : 150px;
+					margin-left: 430px;
+					z-index: 3;
 				}
