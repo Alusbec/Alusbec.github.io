@@ -17,7 +17,7 @@ $(function () {
     });
 
     $('.pc3').mouseover(function () { // cible la div avec id green lui indique (mouseover) 
-        $('.pc3').html('Si j\'étais un événement historique, je serais... Le 4 novenbre 2008 (élection de Barack Obama)'); // qu'au passage de la sourie le texte change de colo
+        $('.pc3').html('Si j\'étais un événement historique, je serais... Le 4 novembre 2008 (élection de Barack Obama)'); // qu'au passage de la sourie le texte change de colo
     });
 
     $('.pc3').mouseout(function () {
