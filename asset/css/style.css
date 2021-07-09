@@ -193,9 +193,7 @@ i {
     font-size: 25px;
 }
 
-a[href^="mailto:"]
-
-{ 
+a[href^="mailto:"] { 
     font-family: "Synemono";
   
 }
