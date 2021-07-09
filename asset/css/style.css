@@ -44,6 +44,24 @@ body{
     text-shadow: 1px 1px 2px #F1CDAB;
 }
 
+.reseau1{
+    
+    padding-bottom: 20px;
+}
+
+.reseau1 a{
+    color :#F1CDAB;
+    text-shadow: 1px 1px 2px #000000;
+   padding-top: 15PX;
+
+}
+
+.reseau1 a:hover {
+    color : #000000;
+    text-shadow: 1px 1px 2px #F1CDAB;
+    text-decoration: none;
+}
+
 h1{
     margin-bottom: 40px;
 }
@@ -171,23 +189,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-.reseau1{
-    
-    padding-bottom: 20px;
-}
-
-.reseau1 a{
-    color :#F1CDAB;
-    text-shadow: 1px 1px 2px #000000;
-   padding-top: 15PX;
-
-}
-
-.reseau1 a:hover {
-    color : #000000;
-    text-shadow: 1px 1px 2px #F1CDAB;
-    text-decoration: none;
-}
 
 i {
     font-size: 25px;
