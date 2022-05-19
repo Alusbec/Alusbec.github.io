@@ -101,7 +101,12 @@ h1{
 .profil {
     z-index: 4;
     /* position: absolute; */
-   margin-top: -280px;
+   margin-top: -290px;
+   margin-left: 10px;
+}
+
+.profil img {
+    width: 380px;
 }
 
 h2 {
@@ -217,6 +222,7 @@ a[href^="mailto:"] {
         z-index: 4;
         /* position: absolute; */
        margin-top: -220px;
+     
     }
 
 
