@@ -9,9 +9,12 @@
     }
 
     #issues {
-        position: absolute;
+        
         top : 400px;
         margin-left: 10px;
+        text-align: center;
+        margin-left: 50px;
+
     }
 
     .draw>img {
