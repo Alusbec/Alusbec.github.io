@@ -226,18 +226,8 @@ a[href^="mailto:"] {
     }
 
 
-@media screen and (max-width: 800px)
-{
-    .logo {
-        width: 300px;
-    }
 
-    .profil {
-        z-index: 4;
-        /* position: absolute; */
-       margin-top: -350px;
-     
-    }
+
 
 
 }
